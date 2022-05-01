@@ -18,9 +18,13 @@
 - 异常值、离群值的检测和处理方法汇总 🆕
     - missing values treatment
     ![输入图片说明](../../pic/missingvalue.png)
+        - Univariate: fillna/replace/SimpleImputer
+        - Multivariate: MICE/KNN
 
     - outliers treatment
     ![输入图片说明](../../pic/outlier.png)
+        - Univariate: Boxplot/Zscore/IQR/Hampel
+        - Multivariate: DBSCAN/OneClassSVM/EllipticEnvelope/IsolationForest/LocalOutlierFactor
 
 - pandas_profiling使用方法汇总 🆕
 ![pandas_profiling](../../pic/pandas_profiling.gif)
@@ -32,7 +36,7 @@
 
 ![输入图片说明](../../pic/sklearn.png)
     
-
+传送门：https://ipython-books.github.io/81-getting-started-with-scikit-learn/
  
 ### 💛阶段内容   
 
